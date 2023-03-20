@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess The Number</title>
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <button class="btn restart">Restart</button>
+        <button class="btn about show-modal">About</button>
+        <h1 class="heading">GUESS THE NUMBER</h1>
+        <p class="number">?</p>
+      </section>
+
+      <div class="modal hidden">
+        <button class="btn close-modal">&times;</button>
+
+        <h1>About Section</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident
+          assumenda maxime architecto eligendi perspiciatis! Temporibus modi
+          fugiat porro possimus, eveniet animi sed est deserunt tenetur
+          excepturi ab illo atque doloremque quasi reprehenderit non quaerat
+          culpa? Culpa, labore similique quaerat quasi quibusdam quae dolore
+          reiciendis modi impedit, sequi nihil corporis. Vel!
+        </p>
+      </div>
+
+      <div class="background hidden"></div>
+
+      <section class="Controls">
+        <section>
+          <p class="message">Start Guessing...</p>
+          <p class="score-el">Score: <span class="score">17</span></p>
+          <p class="highscore-el">
+            HighScore: <span class="highscore">0</span>
+          </p>
+        </section>
+
+        <section>
+          <input type="number" class="guess" />
+          <button class="btn check">Check</button>
+        </section>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
